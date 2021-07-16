@@ -29,6 +29,9 @@ class Character():
         self.health = health
         self.damage = damage
         self.speed = speed
+
+    def show_health(self):
+        return self.health
         
     def attack(self, enemy):
         enemy.health = enemy.health - self.damage
@@ -145,4 +148,4 @@ def battle_of_grassy_plains():
     print(Orc_D.health)
     print(Orc_E.health)
 
-battle_of_grassy_plains()
+Elf_A = Elf(150, 20, 50)
