@@ -41,7 +41,7 @@ while run:
     # Draw circle
     pygame.draw.circle(window, (0, 255, 0), (250, 250), 100)
 
-    img = pygame.image.load("./Hacker's Course - C1/Week 2/burgerstand.png")
+    img = pygame.image.load("/Users/Desktop/KeenKiz-Hacker/Hacker's Course - C1/Week 2/burgerstand.png")
     window.blit(img, (0, 0))
 
     render_text(window, "Hello There", Point(250, 200))
